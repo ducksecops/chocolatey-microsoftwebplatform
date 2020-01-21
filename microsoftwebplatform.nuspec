@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>microsoftwebplatform</id>
+    <version>5.1.51515.0</version>
+    <title>Microsoft Web Platform Installer</title>
+    <authors>Microsoft</authors>
+    <owners>ducksecops</owners>
+    <licenseUrl>https://go.microsoft.com/fwlink/?LinkID=145508</licenseUrl>
+    <projectUrl>https://www.microsoft.com/web/downloads/platform.aspx</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>microsoftwebplatform Microsoft Web Installer</tags>
+    <summary>The Microsoft Web Platform Installer - WebPI provides a simplified installation workflow for installing common open source web applications and web platform technologies</summary>
+    <description>The Microsoft Web Platform Installer - WebPI provides a simplified installation workflow for installing common open source web applications and web platform technologies
+
+The Microsoft Web Platform Installer is a free tool that makes it simple to download, install and keep up-to-date with the latest components of the Microsoft Web Platform, including Internet Information Services (IIS), SQL Server Express, .NET Framework and Visual Studio. Web PI also makes it easy to install and run the most popular free web applications for blogging, content management and more with the built-in Windows Web Application Gallery</description>
+    <iconUrl>https://blackbeltreview.files.wordpress.com/2012/04/web-platform-installer-icon.png</iconUrl>
+    <copyright>2020 Microsoft</copyright>
+    <docsUrl>https://docs.microsoft.com/en-us/iis/install/web-platform-installer/web-platform-installer-resources</docsUrl>
+    <packageSourceUrl>https://github.com/ducksecops/chocolatey-microsoftwebplatform</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
